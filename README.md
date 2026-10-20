@@ -31,7 +31,7 @@ O projeto foi pensado para permitir ações simples e controladas no RouterOS, c
 
 ## Estrutura do projeto
 
-```
+```bash
 MikrotikController/
 ├── public/
 │   ├── app.js
