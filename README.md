@@ -31,7 +31,7 @@ O projeto foi pensado para permitir ações simples e controladas no RouterOS, c
 
 ## Estrutura do projeto
 
-```bash
+```
 MikrotikController/
 ├── public/
 │   ├── app.js
@@ -56,30 +56,16 @@ MikrotikController/
 ## Instalação
 
 1. Clone o repositório:
-```bash
+```
 git clone https://github.com/m4rcosJr/MikrotikController.git
 cd MikrotikController
 ```
 
 2. Instale as dependências:
-```bash
+```
 npm install
 ```
 
-3. Crie um arquivo `.env` na raiz do projeto com as variáveis abaixo:
-
-```env
-PORT=3000
-MIKROTIK_HOST=192.168.88.1
-MIKROTIK_PORT=22
-MIKROTIK_USER=admin
-MIKROTIK_PASS=sua_senha
-APP_USER=admin
-APP_PASS=sua_senha_app
-JWT_SECRET=troque_esta_chave
-JWT_EXPIRES_IN=8h
-MOCK_MODE=false
-```
 
 > Se `MOCK_MODE=true`, a aplicação simula execuções sem tentar conectar ao MikroTik.
 
@@ -91,13 +77,13 @@ npm start
 
 Ou em modo de desenvolvimento:
 
-```bash
+```
 npm run dev
 ```
 
 A aplicação fica disponível em:
 
-```bash
+```
 http://localhost:3000
 ```
 
